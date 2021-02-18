@@ -12,7 +12,7 @@ def downloadSongs(music):
     Downloads music based on input
 
         Parameter:
-            music [(str, str)]: List of tuples 
+            music [str]: List of tuples 
                 with song name and youtube link
     '''
     ydl_opts = {
